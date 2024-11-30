@@ -54,6 +54,8 @@ namespace ConsoleApp4
 
                 }
                 counter++;
+                if(counter==10){
+                    Console.WriteLine("You have lost");
             }
 
         }
